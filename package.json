@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@adonisjs/assembler": "^5.4.1",
+    "@symfony/webpack-encore": "^1.8.1",
     "adonis-preset-ts": "^2.1.0",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.4.0",
