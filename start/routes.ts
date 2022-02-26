@@ -20,6 +20,17 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
-Route.get('/', async ({ view }) => {
-  return view.render('welcome')
-})
+
+Route.group(() => {
+  
+  Route.get('/login', 'admin/LoginController.login_index')
+
+  
+  Route.get('/', 'admin/BasesController.index')
+
+  
+
+}).prefix('/cms')
+
+
+
